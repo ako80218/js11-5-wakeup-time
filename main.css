@@ -1,0 +1,38 @@
+body{
+
+	font: 12px;
+}
+
+.outer-shell, .inner-shell{
+	width: 80%;
+	padding: 5% 0;
+	margin: 5% auto 10%;
+	border-radius: 10% 10% 2% 2%;
+	overflow: hidden;
+}
+.screen{
+
+	width: 60%;
+	padding: 10% 0;
+	margin: 0 auto;
+	border-radius: 2% 2% 2% 2%;
+
+}
+.inner-shell{
+	background: #000;
+	color:#fff;	
+	font: 2em arial;
+}
+.outer-shell{
+	background: #777;	
+}
+.screen{
+
+	background: red;
+}
+.pm-auto{
+	list-style: none;
+	float: left;
+	font: 1em;
+
+}
