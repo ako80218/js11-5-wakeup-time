@@ -5,7 +5,7 @@ body{
 
 .outer-shell, .inner-shell{
 	width: 80%;
-	padding: 5% 0;
+	padding: 1% 0;
 	margin: 5% auto 10%;
 	border-radius: 10% 10% 2% 2%;
 	overflow: hidden;
@@ -28,11 +28,48 @@ body{
 }
 .screen{
 
-	background: red;
+	background: #600;
 }
 .pm-auto{
 	list-style: none;
 	float: left;
 	font: 1em;
 
+}
+.time{
+
+	font: 4em arial;
+	padding: 0 6%;
+	vertical-align: middle;
+	color: #f00;
+}
+.time-colon{
+
+}
+
+
+.display-am-fm, .dislay-am, .dislay-fm{
+
+	list-style: none;
+
+}
+
+
+.frequency{
+	padding: 0 2%;
+	float: left;
+}
+
+.am, .fm{
+	clear: both;
+	float: left;
+	width: 100%;
+} 
+.pm{
+
+	margin-bottom: 100%;
+}
+.dot{
+	
+	color: red;
 }
